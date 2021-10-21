@@ -8,16 +8,16 @@ notes.get("/", (req, res) => {
   });
   
   // POST Route for a new notes
-  tips.post("/", (req, res) => {
+notes.post("/", (req, res) => {
     console.log(req.body);
   
     const { title,text } = req.body;
   
     if (req.body) {
       const newNote = {
+        id: uuidv4(),
         title,
         text,
-        id: uuidv4(),
       };
   
       readAndAppend(newNote, "./db/db.json");
