@@ -7,3 +7,5 @@ This application is called Note Taker. It can be used to write and save notes. T
 [Note Taker](https://note-taker-oct-21.herokuapp.com/)
 
 ## Screenshot 
+![alt text](/screenshot1.png)
+![alt text](/screenshot2.png)
